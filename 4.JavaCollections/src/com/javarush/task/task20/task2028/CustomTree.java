@@ -2,6 +2,7 @@ package com.javarush.task.task20.task2028;
 
 import java.io.Serializable;
 import java.util.AbstractList;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -10,9 +11,22 @@ import java.util.List;
 */
 public class CustomTree extends AbstractList<String> implements Cloneable, Serializable {
 
+    Entry<String> root;
+    private List<Entry<String>> treeList = new ArrayList<>();
+
+
     @Override
     public int size() {
-        return 0;
+        return treeList.size()-1;
+    }
+
+    public String getParent(String s) {
+        for (Entry<String> entry: treeList) {
+            if (entry.elementName.equals(s)) {
+                return entry.parent.elementName;
+            }
+        }
+        return null;
     }
 
     @Override
@@ -49,6 +63,36 @@ public class CustomTree extends AbstractList<String> implements Cloneable, Seria
     public String remove(int index) {
         throw new UnsupportedOperationException();
     }
+
+    public CustomTree() {
+        root = new Entry<>("0");
+        treeList.add(0, root);
+    }
+
+    @Override
+    public boolean add(String s) {
+        Entry<String> current;
+        Entry<String> newEntry = new Entry<String>(s);
+
+        for(Entry<String> entry: treeList) {
+            current = entry;
+            if (current.isAvailableToAddChildren()) {
+                if (current.leftChild == null) {
+                    current.leftChild = newEntry;
+                    current.availableToAddLeftChildren = false;
+                } else if (current.rightChild == null) {
+                    current.rightChild = newEntry;
+                    current.availableToAddRightChildren = false;
+                }
+                newEntry.parent = current;
+                treeList.add(newEntry);
+                return true;
+            }
+        }
+        return false;
+    }
+
+
     static class Entry<T> implements Serializable {
         String elementName;
         boolean availableToAddLeftChildren, availableToAddRightChildren;
