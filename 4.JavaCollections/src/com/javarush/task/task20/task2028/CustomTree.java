@@ -49,4 +49,19 @@ public class CustomTree extends AbstractList<String> implements Cloneable, Seria
     public String remove(int index) {
         throw new UnsupportedOperationException();
     }
+    static class Entry<T> implements Serializable {
+        String elementName;
+        boolean availableToAddLeftChildren, availableToAddRightChildren;
+        Entry<T> parent, leftChild, rightChild;
+
+        public Entry (String name) {
+            elementName = name;
+            availableToAddLeftChildren = true;
+            availableToAddRightChildren = true;
+        }
+        public boolean isAvailableToAddChildren () {
+            return availableToAddLeftChildren || availableToAddRightChildren;
+        }
+    }
+
 }
