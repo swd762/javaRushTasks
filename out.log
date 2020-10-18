@@ -47394,3 +47394,72 @@
 2020-10-15 12:08:50 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
 2020-10-15 12:09:37 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
 2020-10-15 12:10:37 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-15 12:10:57 INFO  ProjectStartupHandler.projectClosing(154) - ---------- Project closed ----------
+
+2020-10-15 12:10:57 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-10-15 12:10:57 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-10-15 12:10:57 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-10-15 12:10:57 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-10-15 12:10:57 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-10-15 12:10:57 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2020-10-18 09:46:47 INFO  ProjectStartupHandler.runActivity(73) - ---------- Project opened ----------
+2020-10-18 09:46:47 INFO  ProjectStartupHandler.runActivity(74) - ---------- Version 3.43 ----------
+
+2020-10-18 09:46:47 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-10-18 09:46:47 INFO  ApacheHttpClient.refreshUserInfo(302) - responseCode = 200
+2020-10-18 09:46:47 INFO  ApacheHttpClient.refreshUserInfo(308) - User information received.
+2020-10-18 09:46:47 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-10-18 09:46:47 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-10-18 09:46:50 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-10-18 09:46:50 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
+2020-10-18 09:46:55 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
+2020-10-18 09:46:59 INFO  ApacheHttpClient.getTaskTemplateInfo(350) - responseCode = 200
+2020-10-18 09:46:59 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(73) - File created :C:/Users/ilyak/IdeaProjects/JavaRushTasks/4.JavaCollections/src/com/javarush/task/task32
+2020-10-18 09:46:59 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(73) - File created :C:/Users/ilyak/IdeaProjects/JavaRushTasks/4.JavaCollections/src/com/javarush/task/task32/task3201
+2020-10-18 09:46:59 INFO  TaskInfoSelectorMouseListener.run(515) - checkpoint 1
+2020-10-18 09:46:59 INFO  TaskInfoSelectorMouseListener.run(517) - checkpoint 2
+2020-10-18 09:46:59 INFO  TaskInfoSelectorMouseListener.run(523) - checkpoint 3
+2020-10-18 09:46:59 INFO  TaskInfoSelectorMouseListener.run(515) - checkpoint 1
+2020-10-18 09:46:59 INFO  TaskInfoSelectorMouseListener.run(517) - checkpoint 2
+2020-10-18 09:46:59 INFO  TaskInfoSelectorMouseListener.run(523) - checkpoint 3
+2020-10-18 09:47:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 09:48:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 09:49:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 09:50:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 09:51:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 09:52:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 09:53:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 09:54:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 09:55:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 09:56:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 09:57:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 09:58:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 09:59:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 10:00:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 10:01:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 10:02:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 10:03:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 10:04:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 10:05:35 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-10-18 10:05:35 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-10-18 10:05:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 10:06:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 10:07:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 10:08:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 10:09:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 10:10:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-10-18 10:11:15 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-10-18 10:11:16 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-10-18 10:11:18 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-10-18 10:11:19 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-10-18 10:11:22 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-10-18 10:11:22 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
+2020-10-18 10:11:24 INFO  ApacheHttpClient.getTaskTemplateInfo(350) - responseCode = 200
+2020-10-18 10:11:24 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(73) - File created :C:/Users/ilyak/IdeaProjects/JavaRushTasks/4.JavaCollections/src/com/javarush/task/task32/task3210
+2020-10-18 10:11:24 INFO  TaskInfoSelectorMouseListener.run(515) - checkpoint 1
+2020-10-18 10:11:24 INFO  TaskInfoSelectorMouseListener.run(517) - checkpoint 2
+2020-10-18 10:11:24 INFO  TaskInfoSelectorMouseListener.run(523) - checkpoint 3
+2020-10-18 10:11:24 INFO  TaskInfoSelectorMouseListener.run(515) - checkpoint 1
+2020-10-18 10:11:24 INFO  TaskInfoSelectorMouseListener.run(517) - checkpoint 2
+2020-10-18 10:11:24 INFO  TaskInfoSelectorMouseListener.run(523) - checkpoint 3
+2020-10-18 10:11:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
