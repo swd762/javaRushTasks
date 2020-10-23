@@ -1,6 +1,9 @@
 package com.javarush.task.task32.task3204;
 
 import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 /* 
@@ -26,22 +29,32 @@ wMh7smNu
 7. Сгенерированные пароли должны быть уникальными.
 */
 public class Solution {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         ByteArrayOutputStream password = getPassword();
-        //System.out.println(password.toString());
-        Random random = new Random();
-        int count = 0;
-        while(count<100) {
-            String test = Character.toString((char)random.nextInt(123));
-            if (test.matches("[a-z]||[A-Z]||[0-9]")) {
-                count++;
-                System.out.println(test);
-            }
-        }
-        //System.out.println((char)random.nextInt(123));
+        System.out.println(password.toString());
+
     }
 
-    public static ByteArrayOutputStream getPassword() {
-        return null;
+    public static ByteArrayOutputStream getPassword() throws IOException {
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        Random random = new Random();
+
+
+        while (true) {
+            String passStr = "";
+            int count = 0;
+            while (count < 8) {
+                String test = Character.toString((char) random.nextInt(123));
+                if (test.matches("[a-z]||[A-Z]||[0-9]")) {
+                    count++;
+                    passStr += test;
+                }
+            }
+            if (passStr.matches("(.*[0-9]+.*)")&&passStr.matches("(.*[A-Z]+.*)")&&passStr.matches("(.*[a-z]+.*)")) {
+                out.write(passStr.getBytes());
+                return out;
+            }
+
+        }
     }
 }
