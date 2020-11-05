@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="task 3204 done">
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3211/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3211/Условие.jrtc" afterDir="false" />
+    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="task 3211 done">
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3205/CustomInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3205/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3205/SomeInterfaceWithMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3205/SomeInterfaceWithMethodsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3205/Условие.jrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,7 @@
       <recent name="D:\intellijSandbox\JavaRushTasks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (5)">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -266,20 +268,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task32.task3202.Solution" />
-      <module name="4.JavaCollections" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task32.task3202.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task32.task3203.Solution" />
       <module name="4.JavaCollections" />
@@ -329,6 +317,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.javarush.task.task32.task3211.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task32.task3205.Solution" />
+      <module name="4.JavaCollections" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task32.task3205.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -444,11 +446,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -558,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603425828322</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="task 3211 done">
+      <created>1604561921225</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604561921225</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -586,7 +595,8 @@
     <MESSAGE value="completed task 3213" />
     <MESSAGE value="task 3204 in progress, sorry" />
     <MESSAGE value="task 3204 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 3204 done" />
+    <MESSAGE value="task 3211 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 3211 done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="344" key="#Notifications" timestamp="1596354968025">
@@ -601,18 +611,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="733" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600315217795" />
-    <state x="1213" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1602746958064">
+    <state x="1213" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1604562511098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1213" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602746958064" />
+    <state x="1213" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604562511098" />
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598847194856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598847194856" />
-    <state x="584" y="177" key="CommitChangelistDialog2" timestamp="1603425827365">
+    <state x="584" y="177" key="CommitChangelistDialog2" timestamp="1604561920373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="584" y="177" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603425827365" />
+    <state x="584" y="177" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604561920373" />
     <state x="719" y="190" key="FileChooserDialogImpl" timestamp="1596355277801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -621,22 +631,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="440" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602667066690" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1604561725691">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1604563583448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604561725691" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1604561725691">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604563583448" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1604563583447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604561725691" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1604561725691">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604563583447" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1604563583447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604561725691" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1604561725691">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604563583447" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1604563583448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604561725691" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604563583448" />
     <state width="1877" height="280" key="GridCell.Tab.1.bottom" timestamp="1601618482187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -661,10 +671,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602667053045" />
-    <state x="534" y="223" key="Vcs.Push.Dialog.v2" timestamp="1603425829990">
+    <state x="534" y="223" key="Vcs.Push.Dialog.v2" timestamp="1604561923820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="534" y="223" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603425829990" />
+    <state x="534" y="223" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604561923820" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602748774833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
