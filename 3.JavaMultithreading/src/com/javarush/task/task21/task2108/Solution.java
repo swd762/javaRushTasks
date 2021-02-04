@@ -14,7 +14,7 @@ public class Solution {
             e.printStackTrace();
         }
 
-        System.out.println(tree);
+        System.out.println(tree.toString());
         System.out.println(clone);
 
         System.out.println(tree.branches);
@@ -33,7 +33,7 @@ public class Solution {
         }
     }
 
-    public static class Tree extends Plant {
+    public static class Tree extends Plant implements Cloneable {
         private String[] branches;
 
         public Tree(String name, String[] branches) {
@@ -41,8 +41,15 @@ public class Solution {
             this.branches = branches;
         }
 
+        @Override
+        protected Tree clone() throws CloneNotSupportedException {
+            Tree tree = new Tree(super.getName(), this.branches.clone());
+            return tree;
+        }
+
         public String[] getBranches() {
             return branches;
         }
+
     }
 }
