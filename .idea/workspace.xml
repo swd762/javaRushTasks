@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="task 3205 done">
-      <change afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2101/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2101/Условие.jrtc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2102/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2102/Условие.jrtc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2103/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2103/Условие.jrtc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2106/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2106/Условие.jrtc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3206/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="some tasks completed">
+      <change afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2105/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2105/Условие.jrtc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2109/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2109/Условие.jrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2106/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2106/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
     </list>
@@ -56,6 +51,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554191940871" />
@@ -74,7 +70,7 @@
       <recent name="D:\intellijSandbox\JavaRushTasks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.Solution (5)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -363,13 +359,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task32.task3211.Solution" />
-      <module name="4.JavaCollections" />
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task21.task2106.Solution" />
+      <module name="3.JavaMultithreading" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task32.task3211.*" />
+          <option name="PATTERN" value="com.javarush.task.task21.task2106.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,13 +373,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task32.task3205.Solution" />
-      <module name="4.JavaCollections" />
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task21.task2105.Solution" />
+      <module name="3.JavaMultithreading" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task32.task3205.*" />
+          <option name="PATTERN" value="com.javarush.task.task21.task2105.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -452,11 +448,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (5)" />
+        <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -580,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604563961879</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="some tasks completed">
+      <created>1608624372146</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608624372146</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -610,7 +613,8 @@
     <MESSAGE value="task 3204 done" />
     <MESSAGE value="task 3211 done" />
     <MESSAGE value="task 3205 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 3205 done" />
+    <MESSAGE value="some tasks completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="some tasks completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
