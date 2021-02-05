@@ -43,7 +43,7 @@ public class Solution {
 
         @Override
         protected Tree clone() throws CloneNotSupportedException {
-            Tree tree = new Tree(super.getName(), this.branches.clone());
+            Tree tree = new Tree(super.getName(), branches.clone());
             return tree;
         }
 
