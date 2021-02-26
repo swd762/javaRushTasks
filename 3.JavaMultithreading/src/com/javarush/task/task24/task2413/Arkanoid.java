@@ -9,7 +9,7 @@ public class Arkanoid {
     private Ball ball;
     private Stand stand;
     private List<Brick> bricks;
-    static Arkanoid game;
+    private static Arkanoid game;
 
     public Arkanoid(int width, int height) {
         this.width = width;

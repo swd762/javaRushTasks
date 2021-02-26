@@ -6,4 +6,14 @@ public class Ball extends BaseObject {
         super(x, y, radius);
     }
 
+    @Override
+    public void move() {
+
+    }
+
+    @Override
+    public void draw(Canvas canvas) {
+
+    }
+
 }
