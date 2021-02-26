@@ -6,10 +6,11 @@ public class Arkanoid {
 
     private int width;
     private int height;
+    public static Arkanoid game;
+
     private Ball ball;
     private Stand stand;
     private List<Brick> bricks;
-    private static Arkanoid game;
 
     public Arkanoid(int width, int height) {
         this.width = width;
