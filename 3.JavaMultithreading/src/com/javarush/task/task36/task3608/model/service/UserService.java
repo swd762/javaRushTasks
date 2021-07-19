@@ -9,6 +9,8 @@ public interface UserService {
 
     public User createOrUpdateUser(String name, long id, int level);
 
+    public User getUserById(long userId);
+
     public List<User> getUsersByName(String name);
 
     public List<User> getAllDeletedUsers();
