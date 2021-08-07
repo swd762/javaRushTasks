@@ -30,6 +30,12 @@ public class FakeModel implements Model {
     }
 
     @Override
+    public void deleteUserById(long id) {
+        throw new UnsupportedOperationException();
+    }
+
+
+    @Override
     public void loadUsers() {
         List<User> users = new ArrayList<>();
         users.add(new User("A", 1, 1));

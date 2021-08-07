@@ -10,4 +10,6 @@ public interface Model {
 
     void loadUserById(long userId);
 
+    public void deleteUserById(long id);
+
 }
