@@ -15,13 +15,13 @@ public class Human {
     protected String name;
     protected int course;
     protected int[] size;
-    protected boolean isSoldier;
     private List<Human> children = new ArrayList<>();
     private int id;
     private int bloodGroup;
 
-    public Human(boolean isSoldier) {
-        this.isSoldier = isSoldier;
+    public Human(String name, int age) {
+        this.name = name;
+        this.age = age;
         this.id = nextId;
         nextId++;
     }
@@ -67,12 +67,9 @@ public class Human {
     }
 
     public void live() {
-        if (isSoldier)
-            fight();
     }
 
-    public void fight() {
-    }
+
 
     public int getId() {
         return id;
