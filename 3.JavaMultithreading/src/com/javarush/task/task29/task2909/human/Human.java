@@ -63,10 +63,6 @@ public class Human implements Alive {
     }
 
 
-
-
-
-
     public int getId() {
         return id;
     }
