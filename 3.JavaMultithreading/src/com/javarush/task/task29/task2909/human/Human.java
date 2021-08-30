@@ -75,6 +75,13 @@ public class Human implements Alive {
         System.out.println("Рост: " + size[0] + " Вес: " + size[1]);
     }
 
+    public String getPosition() {
+        return "Человек";
+    }
+    public void printData() {
+        System.out.println(getPosition() + ": " + name);
+    }
+
     @Override
     public void live() {
 
