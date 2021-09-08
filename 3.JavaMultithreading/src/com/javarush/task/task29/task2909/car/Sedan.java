@@ -6,4 +6,9 @@ public class Sedan extends Car{
         super(SEDAN, numberOfPassengers);
     }
 
+    @Override
+    public int getMaxSpeed() {
+        return MAX_SEDAN_SPEED;
+    }
+
 }
