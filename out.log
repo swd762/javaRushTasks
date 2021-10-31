@@ -13773,3 +13773,43 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2021-10-31 20:26:54 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2021-10-31 20:26:55 INFO  ApacheHttpClient.completed(32) - responseCode = 200
 2021-10-31 20:26:56 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-10-31 20:27:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-10-31 20:27:19 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-10-31 20:27:25 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-10-31 20:27:35 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-10-31 20:27:35 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-10-31 20:27:36 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-10-31 20:27:36 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-10-31 20:27:37 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-10-31 20:27:53 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-10-31 20:27:54 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-10-31 20:28:02 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2021-10-31 20:28:02 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-10-31 20:28:02 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-10-31 20:28:02 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2021-10-31 20:46:11 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2021-10-31 20:46:11 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.53 ----------
+
+2021-10-31 20:46:11 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-10-31 20:46:11 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-10-31 20:46:12 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-10-31 20:46:12 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-10-31 20:46:12 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-10-31 20:46:12 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-10-31 20:46:17 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-10-31 20:46:18 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-10-31 20:46:28 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-10-31 20:46:28 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Users/ilyak/IdeaProjects/JavaRushTasks/3.JavaMultithreading/src/com/javarush/task/task26
+2021-10-31 20:46:28 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Users/ilyak/IdeaProjects/JavaRushTasks/3.JavaMultithreading/src/com/javarush/task/task26/task2602
+2021-10-31 20:47:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-10-31 20:48:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-10-31 20:49:10 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-10-31 20:49:11 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-10-31 20:49:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-10-31 20:49:13 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-10-31 20:49:14 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-10-31 20:49:23 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-10-31 20:49:23 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-10-31 20:49:28 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-10-31 20:49:28 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Users/ilyak/IdeaProjects/JavaRushTasks/3.JavaMultithreading/src/com/javarush/task/task26/task2603
