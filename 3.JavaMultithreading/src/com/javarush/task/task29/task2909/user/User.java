@@ -1,20 +1,30 @@
 package com.javarush.task.task29.task2909.user;
 
 public class User {
+
     private String name;
     private String surname;
     private int age;
-
-    private String country;
-    private String city;
-    private House house;
-
+    private boolean man;
+    private Address address;
     private Work work;
 
     public User(String name, String surname, int age) {
         this.name = name;
         this.surname = surname;
         this.age = age;
+    }
+
+    public String getBoss() {
+        return work.getBoss();
+    }
+
+    public boolean isMan() {
+        return man;
+    }
+
+    public void setMan(boolean man) {
+        this.man = man;
     }
 
     public String getName() {
@@ -42,23 +52,23 @@ public class User {
     }
 
     public String getCountry() {
-        return country;
+        return address.getCountry();
     }
 
     public void setCountry(String country) {
-        this.country = country;
+        address.setCountry(country);
     }
 
     public String getCity() {
-        return city;
+        return address.getCity();
     }
 
     public void setCity(String city) {
-        this.city = city;
+        address.setCity(city);
     }
 
     public String getAddress() {
-        return country + " " + city + " " + house.house;
+        return address.getCountry() + " " + address.getCity() + " " + address.getHouse();
     }
 
     public Work getWork() {
@@ -81,4 +91,5 @@ public class User {
             System.out.println("Пользователь старше 16 лет");
         }
     }
+
 }
