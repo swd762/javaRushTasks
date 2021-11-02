@@ -47,6 +47,31 @@ public class Server {
             this.socket = socket;
         }
 
+        private String serverHandshake(Connection connection) throws IOException, ClassNotFoundException {
+            while (true) {
+                connection.send(new Message(MessageType.NAME_REQUEST));
+                Message message = connection.receive();
+                if (message.getType() != MessageType.USER_NAME) {
+                    writeMessage("Message received from " + socket.getRemoteSocketAddress() + ". Message type is " +
+                            "invalid");
+                    continue;
+                }
+                String userName = message.getData();
+                if (userName.isEmpty()) {
+                    writeMessage("Trying to connect with empty name from " + socket.getRemoteSocketAddress());
+                    continue;
+                }
+
+                if (connectionMap.containsKey(userName)) {
+                    writeMessage("Trying to connect with existing name from " + socket.getRemoteSocketAddress());
+                    continue;
+                }
+                connectionMap.put(userName, connection);
+                connection.send(new Message(MessageType.NAME_ACCEPTED));
+                return userName;
+            }
+        }
+
         @Override
         public void run() {
 
