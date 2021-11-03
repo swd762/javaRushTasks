@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="">
+    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="solved several tasks">
+      <change afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task30/task3008/client/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task30/task3008/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task30/task3008/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task30/task3008/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task30/task3008/Условие.jrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
     </list>
@@ -414,13 +414,6 @@
       <workItem from="1485162014696" duration="83000" />
       <workItem from="1485177835943" duration="100000" />
     </task>
-    <task id="LOCAL-00051" summary="solved several tasks">
-      <created>1628331297673</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1628331297673</updated>
-    </task>
     <task id="LOCAL-00052" summary="solved several tasks">
       <created>1628332145510</created>
       <option name="number" value="00052" />
@@ -757,7 +750,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635919769845</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="solved several tasks">
+      <created>1635921284901</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1635921284901</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
