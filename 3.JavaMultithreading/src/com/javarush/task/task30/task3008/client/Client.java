@@ -9,6 +9,11 @@ import java.io.IOException;
 
 public class Client {
 
+    public static void main(String[] args) {
+        Client client = new Client();
+        client.run();
+    }
+
     protected Connection connection;
     private volatile boolean clientConnected = false;
 
@@ -41,6 +46,34 @@ public class Client {
         } catch (IOException e) {
             ConsoleHelper.writeMessage("failed to send message");
             clientConnected = false;
+        }
+    }
+
+    public void run() {
+        SocketThread socketThread = getSocketThread();
+        socketThread.setDaemon(true);
+        socketThread.start();
+        try {
+            synchronized (this) {
+                wait();
+            }
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            ConsoleHelper.writeMessage("An error occurred while client running");
+        }
+        if (clientConnected) {
+            ConsoleHelper.writeMessage("Connection . Enter 'exit' to exit...");
+        } else {
+            ConsoleHelper.writeMessage("An error occurred with client");
+        }
+        while (clientConnected) {
+            String text = ConsoleHelper.readString();
+            if (text.equalsIgnoreCase("exit")) {
+                break;
+            }
+            if (shouldSendTextFromConsole()) {
+                sendTextMessage(text);
+            }
         }
     }
 
